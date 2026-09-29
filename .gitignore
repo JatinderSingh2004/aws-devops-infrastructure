@@ -1,0 +1,23 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# SSH keys
+*.pem
+devops-portfolio-key
+devops-portfolio-key.pub
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
